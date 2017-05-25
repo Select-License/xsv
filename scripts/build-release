@@ -9,6 +9,6 @@ rm -rf "/tmp/$name"
 mkdir "/tmp/$name"
 cp ./target/release/xsv "/tmp/$name/"
 cp ./README.md "/tmp/$name/"
-cp ./UNLICENSE "/tmp/$name/"
+cp ./LICENSE "/tmp/$name/"
 tar zcf "./builds/$name.tar.gz" -C /tmp $name
 
