@@ -9,4 +9,5 @@ the MIT license has been selected.
 git clone git://github.com/Select-License/xsv
 cd xsv
 cargo build --release
+cargo install
 ```
